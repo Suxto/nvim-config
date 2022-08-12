@@ -54,6 +54,9 @@ keymap("i", "<C-A-l>", "<cmd>lua vim.lsp.buf.format()<CR>", opts)
 -- Undo
 keymap("i", "<C-z>", "<cmd>u<CR>", opts)
 
+-- Delete line
+keymap("i", "", "<cmd>d<CR>", opts)
+
 -- Visual --
 -- Stay in indent mode
 keymap("v", "<", "<gv", opts)
