@@ -49,7 +49,7 @@ keymap("i", "jk", "<ESC>", opts)
 keymap("i", "<C-s>", "<cmd>w<CR>", opts)
 
 -- Format
-keymap("i", "<C-A-l>", "<cmd>lua vim.lsp.buf.format()<CR>", opts)
+keymap("i", "<C-A-l>", "<cmd>lua vim.lsp.buf.format();print('Formatted')<CR>", opts)
 
 -- Undo
 keymap("i", "<C-z>", "<cmd>u<CR>", opts)
